@@ -1,0 +1,16 @@
+[package]
+name = "ragmetric"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+homepage.workspace = true
+description = "IR metrics for RAG retrieval evaluation: recall@k, MRR, NDCG@k, hit@k. Pure data ops, no model dependencies."
+keywords = ["rag", "ir", "metrics", "ndcg", "mrr"]
+categories = ["algorithms", "science"]
+readme = "README.md"
+include = ["src/**", "README.md", "LICENSE-MIT", "LICENSE-APACHE", "Cargo.toml"]
+
+[dependencies]

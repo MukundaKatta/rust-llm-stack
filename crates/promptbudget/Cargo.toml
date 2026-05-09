@@ -1,0 +1,16 @@
+[package]
+name = "promptbudget"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+homepage.workspace = true
+description = "Token-budget-aware text truncation with multiple strategies. Bring-your-own tokenizer, no hard tiktoken dep."
+keywords = ["llm", "prompt", "tokens", "truncate", "budget"]
+categories = ["text-processing", "algorithms"]
+readme = "README.md"
+include = ["src/**", "README.md", "LICENSE-MIT", "LICENSE-APACHE", "Cargo.toml"]
+
+[dependencies]

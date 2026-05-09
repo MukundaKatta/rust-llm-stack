@@ -1,0 +1,16 @@
+[package]
+name = "citecite"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+homepage.workspace = true
+description = "Citation-marker [1] [2] injector + parser for RAG outputs. Round-trips between sources and rendered text."
+keywords = ["rag", "citation", "llm", "markers"]
+categories = ["text-processing"]
+readme = "README.md"
+include = ["src/**", "README.md", "LICENSE-MIT", "LICENSE-APACHE", "Cargo.toml"]
+
+[dependencies]

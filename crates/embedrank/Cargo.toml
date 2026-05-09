@@ -1,0 +1,18 @@
+[package]
+name = "embedrank"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+homepage.workspace = true
+description = "Batched cosine, dot, L2 distance for f32 embeddings, with a heap-based top-k selector. No BLAS, no allocator surprises."
+keywords = ["embeddings", "vector", "rag", "cosine", "topk"]
+categories = ["algorithms", "science"]
+readme = "README.md"
+
+# License files included in the published crate so crates.io shows them.
+include = ["src/**", "README.md", "LICENSE-MIT", "LICENSE-APACHE", "Cargo.toml"]
+
+[dependencies]

@@ -1,0 +1,23 @@
+[workspace]
+members = [
+    "crates/embedrank",
+    "crates/promptbudget",
+    "crates/stopstream",
+    "crates/citecite",
+    "crates/ragmetric",
+]
+resolver = "2"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.75"
+authors = ["Mukunda Katta <mukunda.vjcs6@gmail.com>"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/MukundaKatta/rust-llm-stack"
+homepage = "https://github.com/MukundaKatta/rust-llm-stack"
+
+[profile.release]
+lto = "thin"
+codegen-units = 1
+opt-level = 3

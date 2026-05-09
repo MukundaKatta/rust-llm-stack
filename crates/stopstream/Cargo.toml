@@ -1,0 +1,16 @@
+[package]
+name = "stopstream"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+homepage.workspace = true
+description = "Streaming-safe stop-sequence detector for LLM token streams. Handles partial matches at chunk boundaries."
+keywords = ["llm", "streaming", "stop-sequence", "tokens"]
+categories = ["text-processing"]
+readme = "README.md"
+include = ["src/**", "README.md", "LICENSE-MIT", "LICENSE-APACHE", "Cargo.toml"]
+
+[dependencies]
